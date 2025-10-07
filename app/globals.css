@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --accent1:#ff4d4f;
+  --accent2:#f59e0b;
+  --card:#fff;
+}
+
+body{
+  background: linear-gradient(135deg,#fff7ed 0%,#fff1f2 100%);
+}
+
+/* small label print sizing helper */
+.label-print {
+  width: 70mm;
+  height: 30mm;
+  padding: 6mm;
+  box-sizing: border-box;
+}
+
+@media print {
+  body * { visibility: hidden; }
+  .print-root, .print-root * { visibility: visible; }
+  .print-root { position: fixed; left: 0; top: 0; }
+}
