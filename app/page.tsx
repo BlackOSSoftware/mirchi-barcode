@@ -246,7 +246,7 @@ async function startScannerMobile() {
             </>:<div className="text-sm text-gray-500">Select a product to preview</div>}
           </div>
 
-          <div className="p-4 bg-white rounded-xl shadow">
+          {/* <div className="p-4 bg-white rounded-xl shadow">
             <h3 className="font-semibold mb-2">Scanner</h3>
             <div ref={scannerRef} className="w-full h-48 bg-gray-50 rounded border flex items-center justify-center">
               {!scanning ? <div className="text-sm text-gray-500">Camera stopped</div> : <div className="text-sm text-gray-500">Camera active</div>}
@@ -255,7 +255,7 @@ async function startScannerMobile() {
               <button onClick={startScanner} className="px-3 py-2 rounded border">Start</button>
               <button onClick={stopScanner} className="px-3 py-2 rounded border">Stop</button>
             </div>
-          </div>
+          </div> */}
         </aside>
       </main>
     </div>
